@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer ></script>
+</head>
+<body>
+    <div id="sidebar">
+        <div id="title">
+            <img src="./icons/view-dashboard-edit.png" alt="dashboard icon">
+            <span class="sidebar-span">Dashboard</span>
+        </div>
+        <div id="main-actions">
+            <div id="home">
+                <img src="./icons/home.png" alt="home icon">
+                <span class="sidebar-span">Home</span>
+            </div>
+
+            <div id="profile">
+                <img src="./icons/card-account-details-outline.png" alt="profile icon">
+                <span class="sidebar-span">Profile</span>
+            </div>
+
+            <div id="messages">
+                <img src="./icons/message.png" alt="messages icon">
+                <span class="sidebar-span">Messages</span>
+            </div>
+
+            <div id="history">
+                <img src="./icons/history.png" alt="history icon">
+                <span class="sidebar-span">History</span>
+            </div>
+
+            <div id="tasks">
+                <img src="./icons/calendar-check.png" alt="tasks icon">
+                <span class="sidebar-span">Tasks</span>
+            </div>
+
+            <div id="communities">
+                <img src="./icons/account-group.png" alt="communities icon">
+                <span class="sidebar-span">Communities</span>
+            </div>
+        </div>
+
+        <div id="support-actions">
+            <div id="settings">
+                <img src="./icons/cog.png" alt="support icon">
+                <span class="sidebar-span">Settings</span>
+            </div>
+
+            <div id="support">
+                <img src="./icons/face-agent.png" alt="">
+                <span class="sidebar-span">Support</span>
+            </div>
+
+            <div id="privacy">
+                <img src="./icons/shield-check.png" alt="">
+                <span class="sidebar-span">Privacy</span>
+            </div>
+        </div>
+    </div>
+
+    <div id="main-content">
+        <div id="main-header">
+            <div id="header-search">
+                <img src="./icons/magnify.png" alt="magnifying glass icon">
+                <input type="search" id="searchbar">
+            </div>
+            
+            <div id="header-profile">
+                <img src="./icons/bell.png" id="bell-icon" alt="bell icon">
+                <img src="https://cdn-icons-png.flaticon.com/512/2325/2325592.png" id="profile-pic" alt="">
+                <span class="username">Username</span>
+            </div>
+
+            <div id="buttons">
+                <button type="button"> New </button>
+                <button type="button"> Upload </button>
+                <button type="button"> Share </button>
+            </div>
+        </div>
+        
+        <div id="content-zone">
+                <span id="projects">Projects</span>
+        
+                <div id="recipes" class="project">
+                    <a href="https://mausanchez222.github.io/odin-recipes" target="blank">
+                        <span>Recipes Page</span>
+                        <img src="./images/recipes.png" alt="">
+                    </a>
+               </div>
+    
+               <div id="rps" class="project">
+                    <a href="https://mausanchez222.github.io/rock-paper-scissors" target="blank">
+                        <span>Rock Paper Scissors</span>
+                        <img src="./images/rps.png" alt="">
+                    </a>
+               </div>
+                
+               <div id="etch-a-sketch" class="project">
+                    <a href="https://mausanchez222.github.io/etch-a-sketch" target="blank">
+                        <span>Etch-a-sketch</span>
+                        <img src="./images/etch-a-sketch.png" alt="">
+                    </a>
+               </div>
+                    
+               <div id="calculator" class="project">
+                    <a href="https://mausanchez222.github.io/calculator-top" target="blank">
+                        <span>Calculator</span>
+                        <img src="./images/calculator.png" alt="">
+                    </a>
+               </div>
+
+               <div id="form" class="project">
+                    <a href="https://mausanchez222.github.io/odin-form" target="blank">
+                        <span>Sign up form</span>
+                        <img src="./images/form.png" alt="">
+                    </a>
+                </div>
+
+                <span id="announce-title">Announcements</span>
+                <div id="announcements">
+                    <h4>Site maintenance</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eu ipsum nec sem sodales luctus id sit amet libero.</p>
+                    <hr>
+                    <h4>Community Share day</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eu ipsum nec sem sodales luctus id sit amet libero.</p>
+                    <hr>
+                    <h4>Updated Privacy Policy</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eu ipsum nec sem sodales luctus id sit amet libero.</p>
+                </div>
+
+                <span id="trend-title">Trending</span>
+                <div id="trending">
+                    <div class="trend">
+                        <div>
+                            <img src="./icons/dog-icon.png" alt="">
+                        </div>
+                            
+                        <div>
+                            <h5>@Small doge</h5>
+                            <p>Likes pets</p>
+                        </div>
+                    </div>
+
+                    <div class="trend">
+                        <div>
+                            <img src="./icons/cat-sleep-icon.png" alt="">
+                        </div>
+                        <div>
+                            <h5>@Fluffers</h5>
+                            <p>Sleeps a LOT</p>
+                        </div>
+                    </div>
+                    
+                    <div class="trend">
+                        <div>
+                            <img src="./icons/black-cat-icon.png" alt="">
+                        </div>
+                        <div>
+                            <h5>@Moody</h5>
+                            <p>Always looks tired</p>
+                        </div>
+                    </div>
+                    
+                    <div class="trend">
+                        <div>
+                            <img src="./icons/rabbit-icon.png" alt="">
+                        </div>
+                        <div>
+                            <h5>@Kevin</h5>
+                            <p>Easter soon</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            
+        </div>
+
+    </div>
+</body>
+</html>
